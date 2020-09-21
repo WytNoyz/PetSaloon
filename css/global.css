@@ -1,0 +1,88 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: #008b8b85;
+    color: #f5deb3;
+}
+
+header{
+    background-color: #39929200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+header h1{
+    position: absolute;
+    text-align: center;
+    margin-bottom: 13rem;
+    color: wheat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header .header-img{
+    background-position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav a{
+    color: rgb(136, 101, 36);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+nav a:hover{
+    color: wheat;
+}
+
+.container{
+    padding-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+.container h2{
+    color: wheat;
+}
+.active{
+    border: 2px solid yellow;
+}
+.red-bg{
+    background-color: red;
+}
+
+
+footer{
+    background-color: rgb(255, 231, 185);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+footer p{
+    color: rgba(0, 139, 139, 0.538);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer h3{
+    color: rgba(0, 139, 139, 0.538);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
